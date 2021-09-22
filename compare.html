@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steam Tools</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+
+
+    <link rel="stylesheet" href="./assets/css/hamburger.css">
+    <link rel="stylesheet" href="./assets/css/compare.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+<body>
+    <div class="page-container">
+
+        
+        <div class="content-wrap">
+            <nav id='navbar' class="navbar dark-blue-glass">
+                <div class="navbar-logo" id="navbar-logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.svg" alt="Steam Tools" />
+                    </a>
+                </div>
+                <ul id="nav-list" class="list slide-out">
+                    <li class="items"><a id="home" href="index.html">Home</a></li>
+                    <li class="items active-tab"><a id="compare" href="compare.html">Compare</a></li>
+                    <li class="items"><a id="random-game" href="random-game.html">Random Game</a></li>
+                    <li class="items"><a id="about" href="about.html">About</a></li>
+                    <li class="items"><a id="faq" href="faq.html">FAQ</a></li>
+                </ul>
+                <button id="hamburger" class="btn hamburger hamburger--arrowalt" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </nav>
+        <div class="player-one-search dark-blue-glass">
+            <h1>Enter your Steam ID or Vanity URL to get started!</h1>
+            
+            <div class="search-form">
+                <form id="get-player-id">
+                    <input id="steamid1" type="text" name="text" placeholder="Enter Vanity URL or SteamID" required>
+                    <button id="p1-submit">search</button>
+                </form>
+                <a class="info-btn" href="faq.html" target="blank_"><i class="fas fa-info-circle fa-lg"></i></a>
+                <i id="empty-input-one">Search box empty!</i>
+            </div>
+        </div>
+
+        <div class="players">
+            <div class="player-one left-panel light-blue-glass">
+                <button id="show-search">Back to start</button>
+                <span id="p1-profile"></span>
+                <ul id="myUL" class="dark-blue-glass">
+                    <span id="p1-games"></span>
+                    
+                </ul>
+            </div>
+            <div class="right-panel">
+                <div class="player-two light-blue-glass">
+                    <button id="show-friends">Back to friends list</button>
+                    <span id="p2-profile"></span>
+                    <ul id="myUL" class="dark-blue-glass"> 
+                        <span id="p2-games"></span>
+                    </ul>
+                </div>
+                <div id="profile-spinner">
+                    <img src="assets/images/loadingGrid.svg" alt="" />
+                </div>
+                <div class="friends light-blue-glass">
+                    <div class="friends-header">
+                        <h1>Friends</h1>
+                        <form id="friend-search">
+                            <input id="friendId" type="text" name="text" placeholder="Enter Vanity URL or SteamID" required/>
+                            <button id="p2-submit">search</button>
+                        </form>
+                        <a class="info-btn" href="faq.html" target="blank_"><i class="fas fa-info-circle fa-lg"></i></a>
+                        <i id="empty-input-two">Search box empty!</i>
+                    </div>
+                    <div class="friends-list-container">
+                        <ul id="friends-list" class="dark-blue-glass">
+                            <span id="friends"></span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mutual-games light-blue-glass">
+            <h1>Mutual Games:<span id="mutual-game-count"></span></h1>
+            <div class="mutual-games-list-container dark-blue-glass">
+                <img class="mutual-loading" src="assets/images/loadingGrid.svg" alt="loadingGrid icon" />
+                <h2 id="mutual-games-warning">Choose a friend to see mutual games!</h2>
+                <h2 id="mutual-games-error">No mutual games found!</h2>
+                <ul id="mutual-games-list">
+                    <span id="mutual-games"></span>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="applied-alert">
+        <h4>Friend ID applied to search bar!</h4>
+    </div>
+
+    <footer id="footer">
+        <div class="sitemap">
+            <ul id="footer-list" class="footer-nav">
+                <li class="footer-links"><a href="index.html">Home</a></li>
+                <li class="footer-links footer-divider active-tab"><a href="compare.html">COMPARE</a></li>
+                <li class="footer-links footer-divider"><a href="random-game.html">RANDOM GAME</a></li>
+                <li class="footer-links footer-divider"><a href="about.html">ABOUT</a></li>
+                <li class="footer-links footer-divider"><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="legal">
+            <p>Built by <a href="https://apierce.me" target="blank_">Ashton Pierce</a></p>
+            <a href="/privacy-policy.html"> Privacy Policy</a>
+            <i>All information used in this site is property of Valve/Steam, for more information please view our about page.</i>
+        </div>
+    </footer>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/compare.js"></script>
+    <script src="js/Navbar.js"></script>
+    <script src="js/getBackground.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+</body>
+</html>

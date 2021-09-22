@@ -1,0 +1,26 @@
+.pp-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pp {
+    width: 50%;
+    line-height: 25px;
+    padding: 20px;
+}
+
+.pp h2{
+    margin-top: 15px;
+}
+
+.pp li {
+    list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+    .pp {
+        width: 90%;
+    }
+}

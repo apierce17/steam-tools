@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steam Tools</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+
+
+    <link rel="stylesheet" href="./assets/css/hamburger.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+<body>
+    <div class="page-container">
+
+        
+        <div class="content-wrap">
+            <nav id='navbar' class="navbar dark-blue-glass">
+                <div class="navbar-logo" id="navbar-logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.svg" alt="Steam Tools" />
+                    </a>
+                </div>
+                <ul id="nav-list" class="list slide-out">
+                    <li class="items"><a id="home" href="index.html">Home</a></li>
+                    <li class="items"><a id="compare" href="compare.html">Compare</a></li>
+                    <li class="items"><a id="random-game" href="random-game.html">Random Game</a></li>
+                    <li class="items"><a id="about" href="about.html">About</a></li>
+                    <li class="items active-tab"><a id="faq" href="faq.html">FAQ</a></li>
+                </ul>
+                <button id="hamburger" class="btn hamburger hamburger--arrowalt" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </nav>
+
+            <section class="faq-panel">
+                <h1 class="question q1">Is this site safe?</h1>
+                <p class="answer q1">Yes, I do not ask for users to sign in or submit any information that is not already public.<br>I could add in the ability for this in the future to prevent some errors such as friends list not showing but I have no intention to add this feature at this time until I am able to safely allow users to sign in.</p>
+                <h1 class="question q1">How does this site have my Steam information?</h1>
+                <p class="answer q1">I utilize the Steam API to pull in PUBLIC data, no private information is pulled in.<br>If you would like to see what information I am given to display or how their API works visit <a href="https://Steamcommunity.com/dev" target="blank_">this</a> link.</p>
+                <h1 class="question q1">How do I get my Steam ID or Vanity ID?</h1>
+                <p class="answer q1">There are a couple different ways:<br> Through the Steam website:<br>1. Go to your profile or search the profile <a href="https://Steamcommunity.com/search/users/" target="blank_">here</a>.<br>2. At the top grab the end of the user profile URL, it may be a name or a line of numbers.<br> <span>https://Steamcommunity.com/id/</span><strong>GET-THIS</strong><br><br>Through the Steam desktop app:<br>1. Hover over 'Steam' in the top nav.</a>.<br>2. Click on 'Settings'.<br>3. Click on 'Interface'.<br>4. Make sure 'Display web address bars when available' is checked<br>5. Close the settings window and find the desired profile.<br>6. At the top grab the end of the user profile URL, it may be a name or a line of numbers.<br> <span>https://Steamcommunity.com/id/</span><strong>GET-THIS</strong></p>
+                <h1 class="question q1">Why are games not loading?</h1>
+                <p class="answer q1">There are a few potential reasons:<br>1. Since I can only pull in public data if an account has their library private it will not show.<br>2. On occassion the Steam API will not return games even if the players library is public, try searching it again later.</p>
+                <h1 class="question q1">Why is my profile not showing?</h1>
+                <p class="answer q1">Please ensure you are entering the correct Vanity ID or Steam ID.</p>
+                <h1 class="question q1">Why is my friends list not showing?</h1>
+                <p class="answer q1">Since I can only pull in public data if an account has their friends private it will not show.</p>
+            </section>
+
+            <footer id="footer">
+                <div class="sitemap">
+                    <ul id="footer-list" class="footer-nav">
+                        <li class="footer-links"><a href="index.html">Home</a></li>
+                        <li class="footer-links"><a href="compare.html">COMPARE</a></li>
+                        <li class="footer-links"><a href="random-game.html">RANDOM GAME</a></li>
+                        <li class="footer-links"><a href="about.html">ABOUT</a></li>
+                        <li class="footer-links active-tab"><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="legal">
+                    <p>Built by <a href="https://apierce.me" target="blank_">Ashton Pierce</a></p>
+                    <a href="/privacy-policy.html"> Privacy Policy</a>
+                    <i>All information used in this site is property of Valve/Steam, for more information please view our about page.</i>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/Navbar.js"></script>
+    <script src="js/getBackground.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+</body>
+</html>

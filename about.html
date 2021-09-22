@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steam Tools</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/hamburger.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+<body>
+    <div class="page-container">
+
+        
+        <div class="content-wrap">
+            <nav id='navbar' class="navbar dark-blue-glass">
+                <div class="navbar-logo" id="navbar-logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.svg" alt="Steam Tools" />
+                    </a>
+                </div>
+                <ul id="nav-list" class="list slide-out">
+                    <li class="items"><a id="home" href="index.html">Home</a></li>
+                    <li class="items"><a id="compare" href="compare.html">Compare</a></li>
+                    <li class="items"><a id="random-game" href="random-game.html">Random Game</a></li>
+                    <li class="items active-tab"><a id="about" href="about.html">About</a></li>
+                    <li class="items"><a id="faq" href="faq.html">FAQ</a></li>
+                </ul>
+                <button id="hamburger" class="btn hamburger hamburger--arrowalt" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </nav>
+
+            <section class="about-panel">
+                <div class="light-blue-glass">
+                    <h1>About the project</h1>
+                    <p>
+                        What started as a personal challange to see if I could duplicate the styling of the Steam library quickly turned into a fun learning experience.
+                        After completing the styling for the game cards I decided I should make sure they would look correct with rows of games so I decided to pull in my game library from Steam using their API.
+                        Well, now I can see my games but wouldn't it be cool if I could easily search other peoples libraries without changing the code? I thought so, but now what?
+                        I'm able to search libraries but couldn't I just use Steam to see my friends libraries? Thats when the idea came to add the ability to see mutual games between two people libraries.
+                        Awesome, so now you can see what games you and well anyone on Steam has in common but what if you're bored of all the mutual games? Time to add in the ability to get a random Steam game!
+                        Anyway, things got out of hand from just wanting to duplicate Steam game cards and I'm sure I'll keep thinking of cool features to add in the future.
+                    </p>
+                </div>
+                <div class="light-blue-glass">
+                    <h1>Behind the scenes</h1>
+                    <p>
+                        Let me start off by saying all data I pull is from Steam, I have covered a few basic questions in the <a href="faq.html">FAQ</a>. 
+                        This project was my first big solo project using JQuery and really digging into API's but it was a ton of fun to do.
+                        I had wanted to build it out in React but sadly React doesn't play nicely with JQuery, or what I built at least, so I will be rebuilding the system in plain JavaScript later for React.
+                        I am open to suggestions on new features so feel free to send me any ideas you might have through my <a href="https://apierce.me" target="blank_">personal website</a>!
+                    </p>
+                </div>
+            </section>
+
+            <footer id="footer">
+                <div class="sitemap">
+                    <ul id="footer-list" class="footer-nav">
+                        <li class="footer-links"><a href="index.html">Home</a></li>
+                        <li class="footer-links"><a href="compare.html">COMPARE</a></li>
+                        <li class="footer-links"><a href="random-game.html">RANDOM GAME</a></li>
+                        <li class="footer-links active-tab"><a href="about.html">ABOUT</a></li>
+                        <li class="footer-links"><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="legal">
+                    <p>Built by <a href="https://apierce.me" target="blank_">Ashton Pierce</a></p>
+                    <a href="/privacy-policy.html"> Privacy Policy</a>
+                    <i>All information used in this site is property of Valve/Steam, for more information please view our about page.</i>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/Navbar.js"></script>
+    <script src="js/getBackground.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+</body>
+</html>
