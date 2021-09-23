@@ -17,7 +17,7 @@ Steam Web API
 ## Install & Usage
 1. Download the project from this github repository
 
-2. Get your own Steam Web API key from the steam site
+2. Get your own Steam Web API key [here](https://steamcommunity.com/dev/apikey/)
 
 3. In the ```Compare.js``` and ```random-game.js``` file replace ``` 'STEAM_API_KEY_HERE' ``` with your key
 
