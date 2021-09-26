@@ -1,3 +1,5 @@
+![Logo](https://github.com/apierce17/steam-tools/blob/master/assets/images/logo.svg)
+
 # Steam-Tools
 This was a personal project for me to dive into API's and JQuery. In this web app you can pull a random steam app or compare your Steam game library and a friends steam library.
 
