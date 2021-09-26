@@ -25,3 +25,9 @@ If you would like to see the front end work you can still view the deployed site
 3. In the ```Compare.js``` and ```random-game.js``` file replace ``` 'STEAM_API_KEY_HERE' ``` with your key
 
 4. Run locally and use a browser plugin to disable cors
+
+## My Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://apierce.me/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/id/ashton-pierce)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/14701660/ashton-pierce)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashtoncvpierce@gmail.com)
