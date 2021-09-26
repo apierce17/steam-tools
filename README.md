@@ -6,13 +6,14 @@ Note: As of right now the deployed page does not connect to the API because of C
 If you would like to see the front end work you can still view the deployed site [here](https://apierce17.github.io/steam-tools/).
 
 ## Languages & Tools
-HTML
-
-CSS
-
-JavaScript/JQuery
-
-Steam Web API
+## Main
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
+### Other
+![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 
 ## Install & Usage
 1. Download the project from this github repository
