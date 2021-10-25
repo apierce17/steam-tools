@@ -357,6 +357,8 @@ transition: .2s ease-in-out;
 }
 
 
+
+
 @media screen and (max-width: 1050px) {
   .players {
       flex-direction: column;

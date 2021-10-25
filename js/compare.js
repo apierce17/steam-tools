@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var apiKey = 'STEAM_API_KEY_HERE';         
+    var apiKey = 'E6B1E575E9CC05C1E684A3459845335B';         
     var steamVariables = {};
     const mutualGames = [];
     const playerOneGameIds = [];
