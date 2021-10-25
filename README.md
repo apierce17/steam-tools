@@ -5,7 +5,9 @@ This was a personal project for me to dive into API's and JQuery. In this web ap
 
 Note: As of right now the deployed page does not connect to the API because of CORS issues, I will be resolving this issue in a future release but I have added instructions below on how to run on your own machine.
 
-If you would like to see the front end work you can still view the deployed site [here](https://apierce17.github.io/steam-tools/).
+If you would like to see the front end work you can still view the deployed site [here](https://apierce17.github.io/steam-tools/) or watch the demo below:
+
+[![Watch the video](https://i9.ytimg.com/vi/-xaOPRLpgDM/mq2.jpg?sqp=CLjW3IsG&rs=AOn4CLBpZCOpcHetHOwxD6KNdwU-Oc5nDQ)](https://youtu.be/-xaOPRLpgDM)
 
 ## Languages & Tools
 ## Main
